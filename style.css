@@ -16,6 +16,7 @@
 
     }
 }
+
 /* entrada del logo de izquierda a derecha */
 @keyframes entrada-logo
  {
@@ -101,7 +102,7 @@ text-shadow: 4px 4px 4px black;}
     animation-name: entrada-logo;
     animation-iteration-count: 1;
     animation-timing-function: ease;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-delay: 0.2s;
 }
 .contenedorH1
@@ -127,7 +128,9 @@ body{background-color: rgba(151, 124, 175, 0.7);}
     margin-top: 25px;
     
 }
-
+.contenedorImagen :hover {
+    transform: scale(1.2); 
+}
 
 .textoDescriptivo{
     text-align: justify;
